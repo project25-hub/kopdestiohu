@@ -17,7 +17,7 @@ class Homepage extends CI_Controller{
     }
 
     function index(){
-        $dt['title'] = 'BUMDes Huyula| Silahkan masuk';
+        $dt['title'] = 'KOPDes Tiohu| Silahkan masuk';
         if ($this->ses->log_s) {
             redirect(site_url('home'));
         }else{

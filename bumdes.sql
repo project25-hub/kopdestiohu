@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 25, 2025 at 11:13 AM
+-- Generation Time: Apr 25, 2025 at 01:29 PM
 -- Server version: 10.1.37-MariaDB
 -- PHP Version: 5.6.39
 
@@ -45,7 +45,7 @@ CREATE TABLE `admin` (
 
 INSERT INTO `admin` (`id_admin`, `nama`, `email`, `password`, `kategori`, `kontak`, `foto_user`, `waktu_reg`) VALUES
 ('0081578813144', 'Kepala Desa', 'kepdes@gmail.com', '25d55ad283aa400af464c76d713c07ad', 'GOV', '0833-5604-0453', '8001745551110.png', '2020-03-10 02:09:11'),
-('0081585629042', 'Ketua BUMDES', 'bumdeshuyula@gmail.com', '25d55ad283aa400af464c76d713c07ad', 'MNG', '030502060306', '8001745550968.png', '2020-03-31 11:30:42'),
+('0081585629042', 'Ketua KOPDes', 'kopdestiohu@gmail.com', '25d55ad283aa400af464c76d713c07ad', 'MNG', '030502060306', '8001745550968.png', '2020-03-31 11:30:42'),
 ('0081586049510', 'Administrator', 'sistemwebbumdes@gmail.com', '25d55ad283aa400af464c76d713c07ad', 'SYS', '-', '8001745551044.png', '2020-04-05 01:18:30');
 
 --
@@ -414,7 +414,13 @@ INSERT INTO `log_admin` (`id_temp`, `log`, `admin`, `del_ad`, `tanggal`, `waktu`
 (152, '[PRIVATE] Masuk ke sistem web pada 25-04-2025 15:17:15', '0081585629042', NULL, '2025-04-25', '15:17:15'),
 (153, '[PRIVATE] Masuk ke sistem web pada 25-04-2025 15:19:43', '0081585629042', NULL, '2025-04-25', '15:19:43'),
 (154, '[PRIVATE] Masuk ke sistem web pada 25-04-2025 15:24:18', '0081585629042', NULL, '2025-04-25', '15:24:18'),
-(155, '[PRIVATE] Masuk ke sistem web pada 25-04-2025 15:24:36', '0081585629042', NULL, '2025-04-25', '15:24:36');
+(155, '[PRIVATE] Masuk ke sistem web pada 25-04-2025 15:24:36', '0081585629042', NULL, '2025-04-25', '15:24:36'),
+(156, '[PRIVATE] Masuk ke sistem web pada 25-04-2025 16:50:14', '0081585629042', NULL, '2025-04-25', '16:50:14'),
+(157, '[PRIVATE] Masuk ke sistem web pada 25-04-2025 17:45:18', '0081585629042', NULL, '2025-04-25', '17:45:18'),
+(158, '[PRIVATE] Masuk ke sistem web pada 25-04-2025 18:09:45', '0081585629042', NULL, '2025-04-25', '18:09:45'),
+(159, '[PRIVATE] Perubahan informasi admin', '0081585629042', NULL, '2025-04-25', '18:10:13'),
+(160, '[PRIVATE] Masuk ke sistem web pada 25-04-2025 18:10:41', '0081585629042', NULL, '2025-04-25', '18:10:41'),
+(161, '[PRIVATE] Masuk ke sistem web pada 25-04-2025 18:27:56', '0081585629042', NULL, '2025-04-25', '18:27:56');
 
 -- --------------------------------------------------------
 
@@ -957,7 +963,8 @@ INSERT INTO `url_confirm` (`id`, `catatan`, `status`) VALUES
 ('5001745550968', '0081585629042|prabowoa63@gmail.com', NULL),
 ('5001745551044', '0081586049510|sistemwebbumdij@gmail.com', NULL),
 ('5001745551110', '0081578813144|15523231@students.uii.ac.id', NULL),
-('5001745551132', '0081578813144|15523231@students.ung.ac.id', NULL);
+('5001745551132', '0081578813144|15523231@students.ung.ac.id', NULL),
+('5001745579411', '0081585629042|bumdeshuyula@gmail.com', NULL);
 
 --
 -- Indexes for dumped tables
@@ -1099,7 +1106,7 @@ ALTER TABLE `histori_harga_komoditas`
 -- AUTO_INCREMENT for table `log_admin`
 --
 ALTER TABLE `log_admin`
-  MODIFY `id_temp` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=156;
+  MODIFY `id_temp` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=162;
 
 --
 -- AUTO_INCREMENT for table `satuan`

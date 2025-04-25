@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>BUMDes Huyula - Index</title>
+  <title>KOPDes Tiohu</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -56,8 +56,8 @@
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
 
       <div class="logo me-auto">
-        <h1><a href="#">BUMDes Huyula</a></h1>
-        <h3><a href="#">Desa Tiohu</a></h1>
+        <h1><a href="#">Kopdes Merah Putih</a></h1>
+        <h3><a href="#">Tiohu</a></h1>
         <!-- Uncomment below if you prefer to use an image logo -->
         <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
       </div>
@@ -115,8 +115,8 @@
           <div class="carousel-item active" style="background-image: url(asset/img/slide/slide1.png);">
             <div class="carousel-container">
               <div class="carousel-content">
-                <h2 class="animate__animated animate__fadeInDown"><span>BUMDes</span> Huyula</h2>
-                <p class="animate__animated animate__fadeInUp">Badan Usaha Milik Desa “Huyula” Desa Tiohu 
+                <h2 class="animate__animated animate__fadeInDown"><span>Koperasi Desa</span> Merah Putih Tiohu</h2>
+                <p class="animate__animated animate__fadeInUp">Koperasi ini 
                   bertujuan untuk memperkuat perekonomian desa melalui pengelolaan usaha-usaha yang memberikan
                    manfaat langsung bagi Masyarakat, serta menciptakan lapangan kerja dan sumber pendapatan asli 
                    desa.</p>
@@ -132,7 +132,7 @@
           <div class="carousel-item" style="background-image: url(asset/img/slide/slide-2.jpg);">
             <div class="carousel-container">
               <div class="carousel-content">
-                <h2 class="animate__animated animate__fadeInDown">Bumdes Huyula....</h2>
+                <h2 class="animate__animated animate__fadeInDown">Kopdes Merah Putih Huyula</h2>
                 <p class="animate__animated animate__fadeInUp">Bumdes Huyula......</p>
                 <div>
                   <a href="#menu" class="btn-menu animate__animated animate__fadeInUp scrollto">Produk Lokal</a>
